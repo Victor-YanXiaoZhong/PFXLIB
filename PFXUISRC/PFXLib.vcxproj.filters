@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Core">
+      <UniqueIdentifier>{f3bbf614-1fee-4c6a-b737-127e43737246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core">
+      <UniqueIdentifier>{0c66687a-8aa8-419d-b516-603b72cdb841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PBNISDK">
+      <UniqueIdentifier>{be04a07d-7b52-45c4-acdf-11c162ea7583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PBNIObject">
+      <UniqueIdentifier>{394a627b-5a38-4669-820e-09dae5a7fe38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Utils">
+      <UniqueIdentifier>{fcc933a1-5bc8-4b61-bf8f-0ffa3d98f498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utils">
+      <UniqueIdentifier>{c48f2979-78ed-4bce-8898-64b1060770aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PFXLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PBNIObject\PBNICanvas.h">
+      <Filter>PBNIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PBNIObject\PBNIDragIcon.h">
+      <Filter>PBNIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PBNIObject\PBNIImage.h">
+      <Filter>PBNIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PBNIObject\PBNIImageList.h">
+      <Filter>PBNIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PBNIObject\PBNISubclass.h">
+      <Filter>PBNIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PBNIObject\PBNITimer.h">
+      <Filter>PBNIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PBNIObject\PBNITooltip.h">
+      <Filter>PBNIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PBNIObject\PBNITrayIcon.h">
+      <Filter>PBNIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\GifImage.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ImageEx.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\TrayIcon.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\WndShadow.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UIManager.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UIAPI.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PBNIObject\PBNIMenu.h">
+      <Filter>PBNIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PFXLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PBNIObject\PBNICanvas.cpp">
+      <Filter>PBNIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PBNIObject\PBNIDragIcon.cpp">
+      <Filter>PBNIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PBNIObject\PBNIImage.cpp">
+      <Filter>PBNIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PBNIObject\PBNIImageList.cpp">
+      <Filter>PBNIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PBNIObject\PBNISubclass.cpp">
+      <Filter>PBNIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PBNIObject\PBNITimer.cpp">
+      <Filter>PBNIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PBNIObject\PBNITooltip.cpp">
+      <Filter>PBNIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PBNIObject\PBNITrayIcon.cpp">
+      <Filter>PBNIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\GifImage.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ImageEx.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\TrayIcon.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Utils.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\WndShadow.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\UIManager.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\UIAPI.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PBNIObject\PBNIMenu.cpp">
+      <Filter>PBNIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PBNISDK\src\PBARRAY.CPP">
+      <Filter>PBNISDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PBNISDK\src\PBFUNINV.CPP">
+      <Filter>PBNISDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PBNISDK\src\PBOBJECT.CPP">
+      <Filter>PBNISDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="APIDef.def">
+      <Filter>头文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PFXLib.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
