@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 #include "PFXLib.h"
-
+//test
 BOOL APIENTRY DllMain(HANDLE hModule, DWORD  dwReason, LPVOID /*lpReserved*/)
 {
 	switch (dwReason)
