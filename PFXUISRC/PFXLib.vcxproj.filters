@@ -31,6 +31,9 @@
     <Filter Include="源文件\Utils">
       <UniqueIdentifier>{c48f2979-78ed-4bce-8898-64b1060770aa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="libhashish">
+      <UniqueIdentifier>{e8d7ce19-27e6-4a9e-bd50-a9c475296e83}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -92,6 +95,18 @@
     </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PBNIObject\PBNIHash.h">
+      <Filter>PBNIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhashish\libhashish.h">
+      <Filter>libhashish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhashish\pthread.h">
+      <Filter>libhashish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhashish\sched.h">
+      <Filter>libhashish</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -157,6 +172,9 @@
     </ClCompile>
     <ClCompile Include="..\PBNISDK\src\PBOBJECT.CPP">
       <Filter>PBNISDK</Filter>
+    </ClCompile>
+    <ClCompile Include="PBNIObject\PBNIHash.cpp">
+      <Filter>PBNIObject</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

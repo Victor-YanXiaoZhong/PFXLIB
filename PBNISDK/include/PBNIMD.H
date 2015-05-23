@@ -3,7 +3,7 @@
 //                            Copyright 2001
 //                              Sybase Inc.
 //
-//								Copyright © 2002
+//								Copyright ?2002
 //						Sybase, Inc. and its subsidiaries.
 //	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 //	Sybase, Inc.("Sybase") claims copyright in this program and documentation

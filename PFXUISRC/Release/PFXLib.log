@@ -1,14 +1,19 @@
-﻿生成启动时间为 2015/5/7 23:32:24。
-     1>项目“E:\PFXUI\PFXLib\PFXUISRC\PFXLib.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2015/5/23 23:01:36。
+     1>项目“E:\pfxUI\PFXUISRC\PFXLib.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets(76,5): warning : 文件“e:\pfxui\pfxuisrc\release\pfxlib.tlog\cl.command.1.tlog”正由另一进程使用，因此该进程无法访问此文件。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\ /IE:\PFXUI\PFXLib\PBNISDK\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PFXLIB_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\PFXUI.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\ /IE:\pfxUI\PBNISDK\include /IE:\pfxUI\libhashish /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D PFXLIB_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\PFXUI.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
          StdAfx.cpp
-     1>e:\pfxui\pfxlib\pbnisdk\include\pbnimd.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\ /IE:\PFXUI\PFXLib\PBNISDK\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PFXLIB_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\PFXUI.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Core\UIAPI.cpp Core\UIManager.cpp PBNIObject\PBNICanvas.cpp PBNIObject\PBNIDragIcon.cpp PBNIObject\PBNIImage.cpp PBNIObject\PBNIImageList.cpp PBNIObject\PBNIMenu.cpp PBNIObject\PBNISubclass.cpp PBNIObject\PBNITimer.cpp PBNIObject\PBNITooltip.cpp PBNIObject\PBNITrayIcon.cpp PFXLib.cpp Utils\GifImage.cpp Utils\ImageEx.cpp Utils\TrayIcon.cpp Utils\Utils.cpp Utils\WndShadow.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\ /IE:\pfxUI\PBNISDK\include /IE:\pfxUI\libhashish /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D PFXLIB_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\PBNISDK\src\PBARRAY.CPP ..\PBNISDK\src\PBFUNINV.CPP ..\PBNISDK\src\PBOBJECT.CPP
+         PBARRAY.CPP
+         PBFUNINV.CPP
+         PBOBJECT.CPP
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\ /IE:\pfxUI\PBNISDK\include /IE:\pfxUI\libhashish /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D PFXLIB_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\PFXUI.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Core\UIAPI.cpp Core\UIManager.cpp PBNIObject\PBNICanvas.cpp PBNIObject\PBNIDragIcon.cpp PBNIObject\PBNIHash.cpp PBNIObject\PBNIImage.cpp PBNIObject\PBNIImageList.cpp PBNIObject\PBNIMenu.cpp PBNIObject\PBNISubclass.cpp PBNIObject\PBNITimer.cpp PBNIObject\PBNITooltip.cpp PBNIObject\PBNITrayIcon.cpp PFXLib.cpp Utils\GifImage.cpp Utils\ImageEx.cpp Utils\TrayIcon.cpp Utils\Utils.cpp Utils\WndShadow.cpp
          UIAPI.cpp
          UIManager.cpp
          PBNICanvas.cpp
          PBNIDragIcon.cpp
+         PBNIHash.cpp
          PBNIImage.cpp
          PBNIImageList.cpp
          PBNIMenu.cpp
@@ -25,7 +30,7 @@
        ResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\PFXLib.res" PFXLib.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\PFXUI\PFXLib\Release\PFXUI.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"APIDef.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\PFXUI\PFXLib\Release\PFXUI.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\PFXUI\PFXLib\Release\PFXUI.lib" /MACHINE:X86 /SAFESEH /DLL Release\PFXLib.res
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\pfxUI\Release\PFXUI.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\pfxUI\libhashish libhashish.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"APIDef.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\pfxUI\Release\PFXUI.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\pfxUI\Release\PFXUI.lib" /MACHINE:X86 /SAFESEH /DLL Release\PFXLib.res
          Release\PBARRAY.obj
          Release\PBFUNINV.obj
          Release\PBOBJECT.obj
@@ -33,6 +38,7 @@
          Release\UIManager.obj
          Release\PBNICanvas.obj
          Release\PBNIDragIcon.obj
+         Release\PBNIHash.obj
          Release\PBNIImage.obj
          Release\PBNIImageList.obj
          Release\PBNIMenu.obj
@@ -47,12 +53,12 @@
          Release\TrayIcon.obj
          Release\Utils.obj
          Release\WndShadow.obj
-            正在创建库 E:\PFXUI\PFXLib\Release\PFXUI.lib 和对象 E:\PFXUI\PFXLib\Release\PFXUI.exp
+            正在创建库 E:\pfxUI\Release\PFXUI.lib 和对象 E:\pfxUI\Release\PFXUI.exp
          正在生成代码
          已完成代码的生成
-         PFXLib.vcxproj -> E:\PFXUI\PFXLib\Release\PFXUI.dll
-     1>已完成生成项目“E:\PFXUI\PFXLib\PFXUISRC\PFXLib.vcxproj”(Build 个目标)的操作。
+         PFXLib.vcxproj -> E:\pfxUI\Release\PFXUI.dll
+     1>已完成生成项目“E:\pfxUI\PFXUISRC\PFXLib.vcxproj”(Rebuild 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:03.26
+已用时间 00:00:09.39
