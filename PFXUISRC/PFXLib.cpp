@@ -24,7 +24,7 @@
 
 #include "stdafx.h"
 #include "PFXLib.h"
-
+//test
 BOOL APIENTRY DllMain(HANDLE hModule, DWORD  dwReason, LPVOID /*lpReserved*/)
 {
 	switch (dwReason)
@@ -203,6 +203,20 @@ PBXEXPORT LPCTSTR PBXCALL PBX_GetDescription()
 		_T("function  boolean uf_getbit(readonly ulong num,readonly uint bit)\n")\
 		_T("function  ulong uf_makelong(readonly uint low,readonly uint high)\n")\
 		_T("end globalfunctions\n")
+		/* PbniHash */
+		_T("class n_pfx_hash from nonvisualobject\n") \
+		_T("   function string getversion()\n") \
+		_T("   function boolean add(string key, any value)\n") \
+		_T("   function any get(string key)\n") \
+		_T("   function boolean exists(string key)\n") \
+		_T("   function boolean remove(string key)\n") \
+		_T("   function ulong count()\n") \
+		_T("   function boolean getkeys(ref string keys[])\n") \
+		_T("   function long getlasterror()\n") \
+		_T("   function string getlasterrmsg()\n") \
+		_T("   subroutine purge()\n") \
+		_T("   function boolean set(string key, any value)\n") \
+		_T("end class\n")
 	};
 
 	return (LPCTSTR)classDesc;
@@ -234,6 +248,8 @@ IPBX_NonVisualObject ** nvobj
 		*nvobj = new PBNITrayIcon(session, obj);
 	if (_tcscmp(className, _T("n_pfx_popupmenu")) == 0)
 		*nvobj = new PBNIMenu(session, obj);
+	if (_tcscmp(className, _T("n_pfx_hash")) == 0)
+		*nvobj = new PbniHash(session);
 	
 	return PBX_OK;
 }

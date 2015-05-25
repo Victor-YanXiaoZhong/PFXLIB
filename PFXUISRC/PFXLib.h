@@ -77,4 +77,5 @@ using namespace Gdiplus::DllExports;
 #include "PBNIObject/PBNITrayIcon.h"
 #include "PBNIObject/PBNIDragIcon.h"
 #include "PBNIObject/PBNIMenu.h"
+#include "PBNIObject/PBNIHash.h"
 
