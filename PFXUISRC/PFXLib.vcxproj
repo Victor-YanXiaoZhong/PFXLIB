@@ -108,7 +108,6 @@
     <ClInclude Include="Utils\TrayIcon.h" />
     <ClInclude Include="Utils\Utils.h" />
     <ClInclude Include="Utils\WndShadow.h" />
-    <ClInclude Include="标头.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\PBNISDK\src\PBARRAY.CPP">
